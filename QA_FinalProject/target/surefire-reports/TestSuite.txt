@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 76.336 s <<< FAILURE! - in TestSuite
+Tests1 on Tests1(Selleniun_start_projects.Selleniun_start_projects.AppTest)(Selleniun_start_projects.Selleniun_start_projects.AppTest)  Time elapsed: 71.389 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'SHARON', ip: '10.10.65.49', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13792, moz:profile: C:\Users\sharo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 239781b8-da0b-4fa0-83af-d9443b9626b2
+*** Element info: {Using=id, value=firstname}
+	at Selleniun_start_projects.Selleniun_start_projects.AppTest.Tests1(AppTest.java:39)
+
+Tests1 on Tests1(Selleniun_start_projects.Selleniun_start_projects.root_calculator2)(Selleniun_start_projects.Selleniun_start_projects.root_calculator2)  Time elapsed: 4.53 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Browsing context has been discarded
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'SHARON', ip: '10.10.65.49', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17804, moz:profile: C:\Users\sharo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d098cadf-83c9-4500-9058-a98435afb566
+*** Element info: {Using=id, value=val1}
+	at Selleniun_start_projects.Selleniun_start_projects.root_calculator2.Tests1(root_calculator2.java:27)
+
